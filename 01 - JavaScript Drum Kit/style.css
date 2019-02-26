@@ -1,51 +1,51 @@
-html {
-  font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
-  background-size: cover;
-}
-
-body,html {
+body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background: url(Stars.png) no-repeat center fixed;
+  background-size: cover; 
 }
 
 .keys {
   display: flex;
-  flex: 1;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 55rem;
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all .07s ease;
-  width: 10rem;
+  border: 1px solid white;
+  border-radius: 0.8rem;
+  margin: 0.6rem;
+  padding: 0.7rem;
+  width: 5rem;
+  color:white;
+  background-color: rgba(0,0,0,0.3);
+  height: 3rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  font-size: 1.5rem;
+  max-width: 4rem;
+  min-width: 3rem;
+  transition: all 0.07s;
+  text-shadow: 0 0 1rem black;
 }
 
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  box-shadow: 0 0 0.7rem rgb(102, 191, 13);
 }
 
 kbd {
-  display: block;
-  font-size: 4rem;
+  display: 'Cinzel', serif;
+  font-size: 2rem;
 }
 
 .sound {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-  color: #ffc600;
+  display: block;
+  padding-top: 0.1rem;
+  font-size: 1rem;
+  font-family: 'Indie Flower', cursive;
+  color: rgb(125, 77, 4);
 }
